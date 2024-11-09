@@ -1,0 +1,50 @@
+[
+    {
+        "id":"product1",
+        "name":"Vegetables Burger",
+        "image":"./images/barger.png",
+        "description":"Barbecue italian cuisine pizza"
+    },
+    {
+        "id":"product2",
+        "name":"Spacial Pizza",
+        "image":"./images/pizzaa.png",
+        "description":"Barbecue italian cuisine pizza"
+    },
+    {
+        "id":"product3",
+        "name":"Spacial French Fries",
+        "image":"./images/french-fries.png",
+        "description":"Barbecue italian cuisine"
+    },
+    {
+        "id":"product4",
+        "name":"Cuinise Chicken",
+        "image":"./images/chickenfri.png",
+        "description":"Barbecue italian cuisine"
+    },
+    {
+        "id":"product11",
+        "name":"Vegetables Burger",
+        "image":"./images/barger.png",
+        "description":"Barbecue italian cuisine pizza"
+    },
+    {
+        "id":"product22",
+        "name":"Spacial Pizza",
+        "image":"./images/pizzaa.png",
+        "description":"Barbecue italian cuisine pizza"
+    },
+    {
+        "id":"product33",
+        "name":"Spacial French Fries",
+        "image":"./images/french-fries.png",
+        "description":"Barbecue italian cuisine"
+    },
+    {
+        "id":"product44",
+        "name":"Cuinise Chicken",
+        "image":"./images/french-fries.png",
+        "description":"Barbecue italian cuisine"
+    }
+]
