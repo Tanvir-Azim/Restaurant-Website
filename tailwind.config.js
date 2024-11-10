@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      'mini':{'min':'10px','max':'374px'},
+ 
       'xs':{'min':'375px','max':'639px'},
       'sm': {'min': '640px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
@@ -23,7 +23,11 @@ export default {
       '2xl': {'min': '1536px'},
       // => @media (min-width: 1536px) { ... }
     },
-    extend:{},
+    extend:{
+      backgroundImage: {
+        'hero-image': "url('./images/Capture.PNG')",
+      },
+    },
 },
   
   plugins: [],

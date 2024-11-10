@@ -10,11 +10,11 @@ function HeroAbout() {
 
         <div className='  flex items-center gap-5 justify-between w-[58%] h-14 mt-4 '>
           <div className='h-full w-full flex items-center'>
-            <button className='w-[157px] h-[40px] md:w-[140px] md:h-[35px]  bg-[#FEBF00] font-semibold '>ABOUT MORE</button>
+            <button className='w-[157px] h-[40px] md:w-[140px] md:h-[35px] xs:w-[140px] xs:h-[35px]  bg-[#FEBF00] font-semibold '>ABOUT MORE</button>
            </div>
            <div className=' flex items-center h-full w-full'>
               <img src='./images/call-alt.png'/>
-              <p>+883426739485</p>
+              <p className='xs:text-sm'>+883426739485</p>
            </div>
         </div>
       </div>

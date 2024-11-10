@@ -5,13 +5,13 @@ import { MdOutlineDateRange } from "react-icons/md";
 function BookSection() {
   return (
     <div className='  w-[100%] h-[93vh] mx-auto '>
-        <div className='w-[100%] h-[93vh] xs:h-[115vh]  sm:h-[93vh] md:h-[93vh] lg:h-[93vh] mx-auto absolute'>
+        <div className='w-[100%] h-[93vh] xs:h-[110vh]  sm:h-[93vh] md:h-[100vh] lg:h-[100vh] mx-auto absolute'>
             <img src='./images/contact.PNG' className=' h-full w-full '/>
         </div>
        
-        <div className=' w-[40%]  h-[420px]  relative top-[15%] xs:left-[13%] xs:w-[72%] sm:left-[10%] md:left-6 md:w-[53%] lg:left-[13%] lg:w-[45%] xl:left-[15%] xl:w-[50%] sm:w-[78%]   left-[16%]'>
-            <div className=' w-full h-full '>
-                    <div className=' flex items-center gap-2'>
+        <div className=' w-[40%]   h-[420px]   relative top-[15%] xs:left-[13%] xs:w-[72%] sm:left-[10%] md:left-6 md:w-[53%] lg:left-[13%] lg:w-[45%] xl:left-[15%] xl:w-[50%] sm:w-[78%]   left-[16%]'>
+            <div className=' w-full h-full  '>
+                    <div className=' flex items-center gap-2  '>
                         <RiCheckboxBlankFill className='text-[#BD1F17] text-xs'/>
                         <p className=' text-xs text-[#BD1F17]'>Book Now </p>
                     </div>

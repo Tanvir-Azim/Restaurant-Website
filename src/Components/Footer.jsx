@@ -3,8 +3,8 @@ import { FaRegCopyright } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className=' h-[70vh] bg-zinc-700   md:h-[105vh] w-full   '>
-            <img src='./images/Footer.png' className='h-[80vh] w-full xs:h-[180vh] sm:h-[105vh] md:h-[105vh] absolute'/>
+    <div className=' h-[70vh] bg-zinc-700 md:mt-52   md:h-[100vh] w-full   '>
+            <img src='./images/Footer.png' className='h-[80vh] w-full xs:h-[180vh] sm:h-[105vh] md:h-[100vh] absolute'/>
             <div className=' h-[50vh] w-[76%]  relative mx-auto xs:top-[10%] sm:top-[10%] top-[20%] md:top-20'>
                 <h1 className=' text-5xl tracking-tighter  font-bold text-center text-white xs:text-4xl'>WE READY TO HAVE YOU THE BEST DINING EXPERIENCES</h1>
                 <div className='w-full h-full grid grid-cols-4 grid-rows-1 xs:grid-cols-1 xs:grid-rows-4 xs:h-[100vh] sm:h-[50vh] sm:grid-cols-2 sm:grid-rows-2 md:h-[50vh] md:grid-cols-2 md:grid-rows-2 md:mt-10'>
