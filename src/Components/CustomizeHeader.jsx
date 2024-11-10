@@ -15,7 +15,7 @@ function CustomizeHeader() {
         <div className=' w-[100%] ml-[-110px] mx-auto absolute z-0     left-[13%] bg-red-20 flex items-center justify-between   h-[108px]   '>                 
                       <div className=' flex items-center justify-between w-[73%] z-50'>
                         <div className='flex items-center w-[350px] xs:ml-20 sm:ml-10 md:ml-5 '> 
-                          <img src='./images/logos/sitelogo.svg' className='h-[37px] mr-1'/>
+                          <img src='./images/logos/sitelogo.svg' className='h-[37px] mr-1 '/>
                           <span className='font-bold text-white text-[29px]'>Restu</span><span className='text-white text-[29px]'>rant</span> 
                         </div>
       
@@ -33,7 +33,7 @@ function CustomizeHeader() {
                 </div>
         </div>
 
-        <div className=' w-[260px]   relative  mt-[-15vh]  h-[100vh] z-50 '>
+        <div className=' w-[300px]  relative  mt-[-15vh]  h-[100vh] z-50 '>
                  {Menu&&<MenuSection/>} 
             </div>
     </div>

@@ -117,13 +117,13 @@ color: red;
 
 @media (max-width: 600px){
 svg.slick-arrow.slick-next {
-    top:850px;
+    top:820px;
     left: 52%;
 }
 
 svg.slick-arrow.slick-prev{
-    top:850px;
-    left: 40%;
+    top:820px;
+    left: 38%;
 }
 }
 
@@ -164,7 +164,7 @@ visibility: hidden;
   `
   return (
     <Wraper>
-    <div className=' w-[100%] bg-[#FBF7F2] h-[100vh] xs:h-[150vh] sm:h-[140vh]  xs:mt-[20vh] sm:mt-[10vh] '>
+    <div className=' w-[100%] bg-[#FBF7F2] h-[100vh] xs:h-[130vh] sm:h-[140vh]  xs:mt-[20vh] sm:mt-[10vh] '>
         <div className=' w-[76%] bg-[#FBF7F2] h-[60vh] mx-auto  '>
             <div className=' h-[180px]  w-full flex items-center'>
                  <div className='  w-[100%] h-20'>
@@ -172,47 +172,48 @@ visibility: hidden;
                         <RiCheckboxBlankFill className='text-[#BD1F17] text-xs'/>
                         <p className=' text-sm font-semibold text-[#BD1F17]'>Crispy,Every Bite Taste </p>
                     </div>
-                    <h1 className=' font-bold text-[40px] tracking-tighter text-[#181818]'>WHAT SOME OF MY CUSTOMERS SAY</h1>
+                    <h1 className=' font-bold text-[40px] tracking-tighter text-[#181818] xs:text-[33px]'>WHAT SOME OF MY CUSTOMERS SAY</h1>
                  </div>
             </div>
 
             <Slider {...settings}>
-            <div className=' w-[100%] bg-slate-400 h-full   '>
-              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[100vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
-                    <div className='bg-orange-300'>
+            <div className=' w-[100%]  h-full   '>
+              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[80vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
+                    <div className='0'>
                       <img src='./images/Quote (1).png' className=' h-full w-full'/>
                     </div>
-                    <div className='bg-orange-500 h-full w-full'>
+                    <div className=' h-full w-full'>
                       <img src='./images/Quote (2).png' className=' h-full w-full'/>
                     </div>
                   
                 </div>              
             </div>
 
-            <div className=' w-[100%] bg-slate-400 h-full   '>
-              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[100vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
-                    <div className='bg-orange-300'>
+            <div className=' w-[100%]  h-full   '>
+              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[80vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
+                    <div className='0'>
                       <img src='./images/Quote (1).png' className=' h-full w-full'/>
                     </div>
-                    <div className='bg-orange-500 h-full w-full'>
+                    <div className=' h-full w-full'>
                       <img src='./images/Quote (2).png' className=' h-full w-full'/>
                     </div>
                   
                 </div>              
             </div>
 
-            
-            <div className=' w-[100%] bg-slate-400 h-full   '>
-              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[100vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
-                    <div className='bg-orange-300'>
+
+            <div className=' w-[100%]  h-full   '>
+              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[80vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
+                    <div className='0'>
                       <img src='./images/Quote (1).png' className=' h-full w-full'/>
                     </div>
-                    <div className='bg-orange-500 h-full w-full'>
+                    <div className=' h-full w-full'>
                       <img src='./images/Quote (2).png' className=' h-full w-full'/>
                     </div>
                   
                 </div>              
             </div>
+
             </Slider>
       
             

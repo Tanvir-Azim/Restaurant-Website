@@ -121,7 +121,7 @@ svg.slick-arrow.slick-prev:hover{
 @media (max-width: 600px){
     svg.slick-arrow.slick-next {
         top:400px;
-        left: 52%;
+        left: 55%;
     }
 
     svg.slick-arrow.slick-prev{

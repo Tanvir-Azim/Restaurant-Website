@@ -32,12 +32,12 @@ function MenuSection() {
       <div>
       <ul className='  w-[100%] h-[30vh] bg-white text-black text-[14px] '>
               
-                <li onClick={()=>{ToggoleHome()}} className={home?' w-[20%] ml-2 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-2 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/'>Home</NavLink></li>
-                <li onClick={()=>{ToggoleAbout()}} className={about?' w-[20%] ml-2 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-2 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/about'>About</NavLink></li>
-                <li onClick={()=>{ToggolePortfolio()}} className={portfolio?' w-[28%] ml-2 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-2 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/porttfolio'> Portfolio</NavLink></li>
-                <li onClick={()=>{ToggoleClients()}} className={clients?' w-[22%] ml-2 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-2 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/clients'>Clients</NavLink></li>
-                <li onClick={()=>{ToggoleBlog()}} className={blog?' w-[15%] pb-[2px] ml-2 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-2 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/blog'>Blog</NavLink></li>
-                <li onClick={()=>{ToggoleContact()}} className={contact?' w-[25%] ml-2 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-2 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/contact'>Contact</NavLink></li>
+                <li onClick={()=>{ToggoleHome()}} className={home?' w-[20%] ml-4 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-4 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/'>Home</NavLink></li>
+                <li onClick={()=>{ToggoleAbout()}} className={about?' w-[20%] ml-4 mt-3     text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-4 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/about'>About</NavLink></li>
+                <li onClick={()=>{ToggolePortfolio()}} className={portfolio?' w-[28%] ml-4 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-4 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/porttfolio'> Portfolio</NavLink></li>
+                <li onClick={()=>{ToggoleClients()}} className={clients?' w-[22%] ml-4 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-4 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/clients'>Clients</NavLink></li>
+                <li onClick={()=>{ToggoleBlog()}} className={blog?' w-[15%] pb-[2px] ml-4 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-4 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/blog'>Blog</NavLink></li>
+                <li onClick={()=>{ToggoleContact()}} className={contact?' w-[25%] ml-4 mt-3    text-lg font-semibold hover:text-red-600 border-b-2 border-red-500':' w-full ml-4 mt-3 text-lg font-semibold hover:text-red-600'}><NavLink to='/contact'>Contact</NavLink></li>
             </ul>
       </div>
 

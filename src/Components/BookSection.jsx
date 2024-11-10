@@ -34,7 +34,7 @@ function BookSection() {
                                 <input type='text' placeholder='Reservation Date' className=' outline-none bg-transparent border-[1px] text-white border-white pl-2 h-9 w-[45%] absolute xs:w-full  placeholder:text-white placeholder-transparent '/>
                             </div>
                             <div>
-                                <MdOutlineDateRange className=' mt-2 text-xl mr-1 text-white cursor-pointer xs:ml-[320px]'/>
+                                <MdOutlineDateRange className=' mt-2 text-xl mr-1 text-white cursor-pointer xs:ml-[80%]'/>
                             </div>
                         </div>
 
