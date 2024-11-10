@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
     <CustomizeHeader/>
-    <section className="max-w-7xl mx-auto px-6 py-12">
+    <section className="max-w-[1120px] mx-auto px-6 py-12">
       {/* Header */}
       <div className="relative text-center mb-10 h-[200px] w-full bg-black">
       {/* Background Image */}

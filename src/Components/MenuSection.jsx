@@ -8,7 +8,7 @@ function MenuSection() {
   const{HandelCross,ToggoleHome,ToggoleAbout,ToggoleBlog,ToggoleClients,ToggoleContact,ToggolePortfolio,home,about,contact,portfolio,blog,clients}=useHeroContax()
   console.log(home,about,contact,portfolio,blog,clients)
   return (
-    <div className='w-full h-full bg-white -z-40'>
+    <div className='w-full h-full bg-white -z-40 mt-[60px]'>
       <div className=' h-20 w-full  '>
         <img src='./images/Capture (2).PNG' className=' h-20 w-full absolute '/>
           

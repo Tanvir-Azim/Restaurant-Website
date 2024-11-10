@@ -6,7 +6,7 @@ function Blog() {
     <>
       <CustomizeHeader/>
    
-    <section className="max-w-7xl mx-auto px-6 py-12">
+    <section className="max-w-[1120px] mx-auto px-6 py-12">
       {/* Featured Blog Post */}
       <div className="relative mb-12">
         <img

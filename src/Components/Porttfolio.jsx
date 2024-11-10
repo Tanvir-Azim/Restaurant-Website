@@ -5,7 +5,7 @@ function Porttfolio() {
   return (
    <>
   <CustomizeHeader/>
-    <section className="max-w-7xl mx-auto px-6 py-12">
+    <section className="max-w-[1120px] mx-auto px-6 py-12">
       {/* Header */}
       <div className="text-center mb-10">
         <h2 className="text-4xl font-bold text-gray-800">Our Portfolio</h2>

@@ -9,7 +9,7 @@ function HeroSection() {
 
     console.log(stateExperience,stateContact,stateAbout)
   return (
-    <div className=' w-[100%] h-[650px] xs:mt-[-70px]  '>
+    <div className=' w-[100%] h-[650px] xs:mt-[10px]  '>
         <div className='w-[75%] h-full mx-auto  sm:h-[170vh] xs:h-[130vh]   '>
             <div className='w-full h-[80%] flex items-center justify-center   '>
                 <div className=' w-[100%] h-[80%] xs:h-[60%] grid grid-cols-[1fr,1.2fr] grid-rows-1 gap-16 xs:grid-cols-1 xs:grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 '>

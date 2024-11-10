@@ -5,7 +5,7 @@ function Clients() {
   return (
     <>
     <CustomizeHeader/>
-    <div className="bg-gray-100">
+    <div className="bg-gray-100  max-w-[1120px] mx-auto px-6 py-12">
 
       {/* Header Section with Restaurant Background Image */}
       <header className="relative bg-cover bg-center text-white py-24 text-center"

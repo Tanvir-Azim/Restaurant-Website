@@ -57,7 +57,7 @@ function Header() {
               
                     </div>
                 </div>
-                <img src='./images/Capture.PNG' className=' h-[101vh] w-full md:h-[80vh]  sm:h-[105vh] xs:h-[100vh] bg-red-600 '/>
+                <img src='./images/Capture.PNG' className=' h-[101vh] w-full md:h-[80vh]  sm:h-[105vh] xs:h-[108vh] bg-red-600 '/>
 
      
             </div>
