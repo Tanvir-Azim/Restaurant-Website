@@ -189,8 +189,8 @@ visibility: hidden;
                 </div>              
             </div>
 
-            <div className=' w-[100%]  h-full   '>
-              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[80vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
+            <div className=' w-[100%]   h-full   '>
+              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[60vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
                     <div className='0'>
                       <img src='./images/Quote (1).png' className=' h-full w-full'/>
                     </div>
@@ -202,8 +202,8 @@ visibility: hidden;
             </div>
 
 
-            <div className=' w-[100%]  h-full   '>
-              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[80vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
+            <div className=' w-[100%]   h-full   '>
+              <div className=' w-full h-[500px]  grid grid-cols-[1fr,1.5fr] grid-rows-1 xs:grid-cols-1 xs:h-[60vh] xs:grid-rows-2 sm:grid-cols-1 sm:h-[100vh] sm:grid-rows-2'>
                     <div className='0'>
                       <img src='./images/Quote (1).png' className=' h-full w-full'/>
                     </div>
@@ -213,6 +213,7 @@ visibility: hidden;
                   
                 </div>              
             </div>
+
 
             </Slider>
       
