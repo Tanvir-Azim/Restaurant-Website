@@ -178,12 +178,12 @@ svg.slick-arrow.slick-prev:hover{
                     <h1 className=' font-bold text-[40px] tracking-tighter text-[#181818] xs:text-4xl'>POPULAR FOOD ITEMS</h1>
                  </div>
             </div>
-            <div className=' w-full  h-full  '>
+            <div className=' w-full  h-full xs:ml-[-10%]  '>
             <Slider {...settings}>
                 {Product.map((cur)=>{
                     return(
                         
-                        <div className=' w-[400px]  xs:ml-[11%] sm:ml-[24%]  space-x-6 h-[400px] cursor-pointer '>
+                        <div className='  w-[400px]  xs:ml-[11%] sm:ml-[24%]  space-x-6 h-[400px] cursor-pointer '>
                             <div className=' w-[240px] shadow-md h-[260px] bg-[#FFFFFF] mt-10 ml-5 grid place-items-center'>
                                 <img src={cur.image} className=' h-[130px] w-[140px]  mt-5 bg-white pt-5'/>
                                 <div className='  mb-10 '>

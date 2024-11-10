@@ -44,10 +44,10 @@ function Header() {
                       <div className=' absolute w-[20%] opacity-40 left-[50%] top-[20%] h-[180px] bg-red-600 xs:hidden sm:hidden md:hidden'>
                      
                       </div>
-                      <p className=' text-[65px] md:text-[45px]  xs:text-[24px] sm:text-[30px] lg:text-[50px] xs:top-[-60px] left-[1%] sm:top-[-60px] font-bold text-white absolute sm:left-[8%] xs:left-[0%] top-32 tracking-[2px]'>TASTE   THE  AUTHENTIC</p><br/>
-                      <p className=' text-[65px] md:text-[45px]  lg:text-[50px] xs:text-[24px] sm:text-[30px] xs:top-[-18px] left-[1%] sm:top-[-18px] font-bold text-white absolute sm:left-[8%] xs:left-[0%] top-[200px] md:top-[180px] tracking-[2px]'>SAUDI CUISINE</p>
-                      <p className=' text-white absolute sm:left-[8%] xs:left-[0%] xs:top-[40px] sm:top-[30px] top-[295px] left-[1%] xs:text-sm '>Among the best saudi chefs in the worle,serving</p><br/>
-                      <p className=' text-white absolute sm:left-[8%] xs:left-[0%] xs:top-[60px] sm:top-[55px] top-[320px] left-[1%] xs:text-sm'> you something beyond flavor.</p>
+                      <p className=' text-[65px] md:text-[45px]  xs:text-[24px] sm:text-[30px] lg:text-[50px] xs:top-[-60px] left-[1%] sm:top-[-60px] font-bold text-white absolute sm:left-[8%] xs:left-[0%] top-32 tracking-[2px] xs:tracking-normal'>TASTE   THE  AUTHENTIC</p><br/>
+                      <p className=' text-[65px] md:text-[45px]  lg:text-[50px] xs:text-[24px] sm:text-[30px] xs:top-[-18px] left-[1%] sm:top-[-18px] font-bold text-white absolute sm:left-[8%] xs:left-[0%] top-[200px] md:top-[180px] tracking-[2px] xs:tracking-normal'>SAUDI CUISINE</p>
+                      <p className=' text-white absolute sm:left-[8%] xs:left-[0%] xs:top-[40px] sm:top-[30px] top-[295px] left-[1%] xs:text-sm xs:tracking-normal '>Among the best saudi chefs in the worle,</p><br/>
+                      <p className=' text-white absolute sm:left-[8%] xs:left-[0%] xs:top-[60px] sm:top-[55px] top-[320px] left-[1%] xs:text-sm'>serving you something beyond flavor.</p>
                       <div>
                         <button className='absolute  w-[157px] h-[40px] sm:left-[8%] xs:left-[0%] sm::left-[8%] left-[1%]  top-[75%] bg-[#FEBF00] font-semibold sm:top-24 xs:top-24 '>EXPLORE MENU</button>
                       </div>
