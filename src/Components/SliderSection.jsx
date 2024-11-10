@@ -167,7 +167,7 @@ svg.slick-arrow.slick-prev:hover{
       `
   return (
     <Wraper>
-    <div className=' w-[100%] bg-[#FBF7F2] h-[90vh]  xs:mt-[80vh] sm:mt-[80vh] xs:h-[100vh] sm:h-[90vh] md:h-90vh]  '>
+    <div className=' w-[100%] bg-[#FBF7F2] h-[90vh]   xs:mt-[87vh] sm:mt-[80vh] xs:h-[100vh] sm:h-[90vh] md:h-90vh]  '>
         <div className=' w-[76%] bg-[#FBF7F2] h-[50vh] mx-auto '>
             <div className=' h-[180px]  w-full flex items-center'>
                  <div className='  w-[100%] h-20'>

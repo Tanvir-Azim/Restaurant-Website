@@ -117,12 +117,12 @@ color: red;
 
 @media (max-width: 600px){
 svg.slick-arrow.slick-next {
-    top:820px;
+    top:600px;
     left: 52%;
 }
 
 svg.slick-arrow.slick-prev{
-    top:820px;
+    top:600px;
     left: 38%;
 }
 }
@@ -164,7 +164,7 @@ visibility: hidden;
   `
   return (
     <Wraper>
-    <div className=' w-[100%] bg-[#FBF7F2] h-[100vh] xs:h-[130vh] sm:h-[140vh]  xs:mt-[20vh] sm:mt-[10vh] '>
+    <div className=' w-[100%] bg-[#FBF7F2] h-[100vh] xs:h-[140vh] sm:h-[140vh]  xs:mt-[20vh] sm:mt-[10vh] '>
         <div className=' w-[76%] bg-[#FBF7F2] h-[60vh] mx-auto  '>
             <div className=' h-[180px]  w-full flex items-center'>
                  <div className='  w-[100%] h-20'>

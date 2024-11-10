@@ -10,7 +10,7 @@ function HeroSection() {
     console.log(stateExperience,stateContact,stateAbout)
   return (
     <div className=' w-[100%] h-[650px] mt-20 '>
-        <div className='w-[75%] h-full mx-auto  sm:h-[170vh] xs:h-[145vh]  '>
+        <div className='w-[75%] h-full mx-auto  sm:h-[170vh] xs:h-[150vh]  '>
             <div className='w-full h-[80%] flex items-center justify-center   '>
                 <div className=' w-[100%] h-[80%] grid grid-cols-[1fr,1.2fr] grid-rows-1 gap-16 xs:grid-cols-1 xs:grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 '>
                     <div className=' h-full w-full    '>
@@ -39,7 +39,7 @@ function HeroSection() {
                 </div>
             </div>
 
-            <div className='  xs:mt-14  h-[100px] w-[100%] grid grid-cols-3 grid-rows-1 mt-[-20px]  sm:mt-[-100px] sm:grid-cols-1  sm:grid-rows-3 sm:h-52 xs:h-52 xs:grid-cols-1  xs:grid-rows-3'>
+            <div className='  xs:mt-[200px]   h-[100px] w-[100%] grid grid-cols-3 grid-rows-1 mt-[-20px]  sm:mt-[-100px] sm:grid-cols-1  sm:grid-rows-3 sm:h-52 xs:h-52 xs:grid-cols-1  xs:grid-rows-3'>
                 <div className=' flex items-center gap-5'>
                     <div className=' w-14 bg-white h-14 rounded-full grid items-center justify-center shadow-xl'>
                         <img src='./images/box.png' className=' h-7'/>
